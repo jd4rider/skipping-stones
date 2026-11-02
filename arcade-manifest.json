@@ -1,0 +1,31 @@
+{
+  "id": "skipping-stones",
+  "name": "Skipping Stones",
+  "tagline": "Flat stones, a long lake, the perfect angle.",
+  "description": "A physics arcade game about the oldest good idea at a lake. Drag to set power and aim, release, and watch a flat stone skip away from you while it keeps a little energy for one more bounce. Five lakes with their own light and wind, a hundred generated challenges that each ship with a verified winning throw, a daily stone for everyone, and a collection of stones that genuinely throw differently. No timer, no lives, one more throw.",
+  "categories": ["Arcade", "Physics", "Relaxing", "Casual"],
+  "runtime": "Phaser 4",
+  "version": "0.1.0",
+  "updated": "2026-11-02",
+  "status": "live",
+  "featured": false,
+  "playUrl": "https://jd4rider.github.io/skipping-stones/play/",
+  "preferredPlayUrl": "https://skippingstones.littlejoyarcade.site/play/",
+  "siteUrl": "https://jd4rider.github.io/skipping-stones/",
+  "repoUrl": "https://github.com/jd4rider/skipping-stones",
+  "downloads": [],
+  "cover": { "from": "#1f9d7a", "to": "#0e2c3d", "emoji": "🪨" },
+  "highlights": [
+    "100 journey challenges across five lakes, each proven solvable by a stored throw",
+    "Deterministic 3D stone physics: power, launch angle, spin, wind and stone shape all matter",
+    "Daily challenge seeded by UTC date so every player gets the same lake",
+    "Six stones and six trails, balanced so nothing is pay-to-win"
+  ],
+  "howToPlay": [
+    "Drag up from the water to set power, slide left or right to aim, then release.",
+    "A shallow, fast, spinning stone skips. A steep or tired one goes straight in.",
+    "Hit the buoys, make the skip count, and chase your best distance."
+  ],
+  "levels": "100 journey challenges · 5 lakes + daily, zen, endless, precision and trick shot",
+  "saveKey": "skipping-stones-save-v1"
+}
