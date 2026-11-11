@@ -1,4 +1,5 @@
 import Phaser from 'phaser'
+import { openTipJar } from './support.js'
 import { CREAM, H, W, button, drawSparkles, fade, panel, starString, text } from './common.js'
 import { data } from '../save.js'
 import { LOCATION_LIST } from '../challenges/index.js'
@@ -134,6 +135,8 @@ export default class ResultsScene extends Phaser.Scene {
       depth: 4,
     })
     button(this, W / 2 + 104, 714, 'Menu', () => fade(this, 'menu'), { width: 194, height: 46, size: 14, fill: 0x0f3a4e, depth: 4 })
+    // Quiet support link: results screen only, under the actions.
+    button(this, W / 2, 820, '☕ Buy me a coffee', () => openTipJar(), { width: 260, height: 30, size: 13, fill: 0x0f3a4e, depth: 4 })
 
     if (challenge?.proof) {
       text(this, W / 2, 768, `Best known throw on this board: ${challenge.proof.skips} skips · ${challenge.proof.distance} m`, 11, 'rgba(255,255,255,0.4)')
